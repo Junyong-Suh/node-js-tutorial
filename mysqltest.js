@@ -2,7 +2,7 @@ var mysql      = require('mysql');
 var connection = mysql.createConnection({
 	host     : 'wordpress-free.cm6jrr76me8k.us-east-1.rds.amazonaws.com',
 	user     : 'zechery',
-	password : 'shekap1226',
+	password : '',
 });
 
 connection.connect();
